@@ -1,0 +1,53 @@
+/* Apply styles to the body and container */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+}
+
+.card {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+/* Style the card title */
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style the receipt items */
+.card-text {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Style the back button */
+.back {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-danger a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
