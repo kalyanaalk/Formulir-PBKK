@@ -42,7 +42,7 @@
                 else if ($results['layanan'] == 6) echo 'Penghilangan noda';
                 ?></p>
             <p class="card-text" style="font-size: 14px">Bukti pembayaran: </p>
-            <img class="img-fluid" src="{{ url('img').'/'.$results['bukti'] }}">
+            <img class="img-fluid" style="display: block; margin: 0 auto;" src="{{ url('img').'/'.$results['bukti'] }}">
         </div>
     </div>
     
