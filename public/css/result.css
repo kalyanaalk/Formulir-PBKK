@@ -1,15 +1,15 @@
 /* Apply styles to the body and container */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f2f2f2;
+    background-color: #c3d4e8;
 }
 
 .card {
     width: 80%;
     margin: 20px auto;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    background-color: #fff;
+    box-shadow: 0 0 10px rgba(33, 31, 43, 0.2);
+    background-color: #d3e2f4;
     border-radius: 5px;
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 /* Style the back button */
-.back {
+.print {
     text-align: center;
     margin-top: 20px;
 }

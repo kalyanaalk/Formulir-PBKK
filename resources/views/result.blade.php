@@ -21,7 +21,6 @@
     
     <div class="card">
         <div class="card-body">
-            @if (!is_null($results))
             <p class="card-text" style="font-size: 14px">Nama: <?php echo $results['nama']; ?></p>
             <p class="card-text" style="font-size: 14px">Nomor telepon: <?php echo $results['notelp']; ?></p>
             <p class="card-text" style="font-size: 14px">Berat: <?php echo $results['berat']; ?></p>
@@ -37,14 +36,11 @@
                 ?></p>
             <p class="card-text" style="font-size: 14px">Bukti pembayaran: </p>
             <img class="img-fluid" src="{{ url('img').'/'.$results['bukti'] }}">
-            @else
-            <p>Mohon isi form terlebih dahulu.</p>
-            @endif
         </div>
     </div>
     
-    <div class="back">
-        <button class="btn btn-danger"><a href="/form" style="text-decoration: none; color: white;">Back</a></button>
+    <div class="print">
+        <button class="btn btn-danger"><a style="text-decoration: none; color: white;">Cetak nota</a></button>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" `integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
