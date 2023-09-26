@@ -14,12 +14,19 @@
 
 <body>
     @if (session('status'))
-    <div class="card alert alert-success">
+    <div class="alert alert alert-success">
         {{ session('status') }}
     </div>
     @endif
+
+    <div class="title">
+        <div class="top-header">
+            <h5>Laundry Dar</h5>
+            <p>Terima kasih telah melakukan pembayaran.<br>Silakan cetak nota dan bawa laundry anda ke kasir.</p>
+        </div>
+    </div>
     
-    <div class="card">
+    <div class="receipt">
         <div class="card-body">
             <p class="card-text" style="font-size: 14px">Nama: <?php echo $results['nama']; ?></p>
             <p class="card-text" style="font-size: 14px">Nomor telepon: <?php echo $results['notelp']; ?></p>
@@ -40,7 +47,7 @@
     </div>
     
     <div class="print">
-        <button class="btn btn-danger"><a style="text-decoration: none; color: white;">Cetak nota</a></button>
+        <button class="btn btn-dark"><a style="text-decoration: none; color: white;">Cetak nota</a></button>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" `integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>

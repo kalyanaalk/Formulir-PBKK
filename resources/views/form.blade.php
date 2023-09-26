@@ -21,7 +21,7 @@
 
             <div class="top-header">
                 <h5>Laundry Dar</h5>
-                <p>aaaaaaaaaaa</p>
+                <p>Cepat bersih dan wangi</p>
             </div>
 
             <form action="/form" method="POST" enctype="multipart/form-data">
@@ -70,10 +70,8 @@
                     @enderror
                 </div>
 
-
-
                 <div class="form-group">
-                    <label>Bukti Pembayaran</label>
+                    <label>Bukti Pembayaran (transfer ke ovo/gopay/dana 089371623991)</label>
                     <input class="form-control" type="file" name="bukti">
                     @error('bukti')
                     <div class="alert alert-danger"> {{ $message }} </div>

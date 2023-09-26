@@ -1,7 +1,40 @@
-/* Apply styles to the body and container */
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #c3d4e8;
+}
+
+.alert {
+    border-radius: 0;
+    text-align: center;
+}
+
+.top-header {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.top-header h5 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #333;
+}
+
+.top-header p {
+    font-size: 16px;
+    color: #4c617b;
+}
+
+.title {
+    padding: 20px 0;
+}
+
+.receipt {
+    width: 40%;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(33, 31, 43, 0.2);
+    background-color: #d3e2f4;
+    border-radius: 5px;
 }
 
 .card {
@@ -13,7 +46,6 @@ body {
     border-radius: 5px;
 }
 
-/* Style the card title */
 .card-title {
     font-size: 24px;
     font-weight: bold;
@@ -22,32 +54,14 @@ body {
     margin-bottom: 20px;
 }
 
-/* Style the receipt items */
 .card-text {
-    font-size: 14px;
+    font-size: 20px;
     color: #333;
     margin-bottom: 10px;
 }
 
-/* Style the back button */
 .print {
     text-align: center;
     margin-top: 20px;
-}
-
-.btn-danger a {
-    text-decoration: none;
-    color: white;
-}
-
-.btn-danger {
-    background-color: #dc3545;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-.btn-danger:hover {
-    background-color: #c82333;
+    padding-bottom: 30px;
 }
